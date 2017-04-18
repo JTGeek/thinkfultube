@@ -57,7 +57,7 @@ function loadAPIClientInterfaces() {
 //XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 //James' code:
 function handleAPILoaded() {
-  $("form").on("submit", function (e) {
+  $('#submitQ').on("submit", function (e) {
     e.preventDefault();
     console.log('passed submit button');
 
