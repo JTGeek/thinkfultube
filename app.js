@@ -5,11 +5,9 @@ function loadAPIClientInterfaces() {
   });
 }
 
-//XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-//James' code:
 function handleAPILoaded() {
-  $('#submitQ').on("submit", function (e) {
-    e.preventDefault();
+  $('#submitQ').on("submit", function (event) {
+    event.preventDefault();
     console.log('passed submit button');
 
     var q = $('#searchBox').val();
