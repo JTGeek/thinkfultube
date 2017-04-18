@@ -1,6 +1,6 @@
 function init() {
-  $("form").on("submit", function () {
-    preventDefault();
+  $("form").on("submit", function (e) {
+    e.preventDefault();
     console.log('passed submit button');
 
     var q = $('#searchBox').val();
