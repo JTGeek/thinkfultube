@@ -77,6 +77,10 @@ function handleAPILoaded() {
 };
 
 
+
+console.log("test 1");
+
+
 //gapi.client.setApiKey("AIzaSyCsxyRbIpVG8tvQDYbpY97ZL762_F45QWc");
 //gapi.client.load('youtube', 'v3', function () {
 //handleAPILoaded();
